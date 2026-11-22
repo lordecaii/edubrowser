@@ -1,0 +1,14 @@
+{
+ "_nasil": "Bu dosya sitenin kökünde yayınlanır (adres: https://lordecaii.github.io/edubrowser/version.json). Uygulama açılışta bu dosyayı okur; buradaki sürüm telefondaki/pc'deki sürümden yeniyse kullanıcıya 'yeni sürüm hazır' kartı çıkar. Yeni sürüm yayınlarken: android.code değerini yeni versionCode yap (örn. 32), name ve url alanlarını güncelle; Windows için windows.version alanını yeni exe sürümü yap (örn. 1.0.7) ve url'yi yeni kurulum dosyasının Releases adresiyle değiştir. url alanlarına şimdilik Releases sayfasının adresi yazılı; doğrudan dosya adresi de yazılabilir.",
+ "android": {
+  "code": 33,
+  "name": "1.0",
+  "notes": "YouTube sayfa içi geçiş aşımı kapatıldı: ana sayfadan izinsiz video ve Shorts artık açılmıyor. Sorun bildir kartı çalışır hâlde.",
+  "url": "https://github.com/lordecaii/edubrowser/releases/download/v1.0/EduBrowser-1.0-vc33-Standart.apk"
+ },
+ "windows": {
+  "notes": "Sorun bildir kartı ve güncelleme kontrolü çalışır hâlde.",
+  "url": "https://github.com/lordecaii/edubrowser/releases/download/v1.0/EduBrowser-Kurulum-1.0.7.exe",
+  "version": "1.0.7"
+ }
+}
